@@ -1,0 +1,17 @@
+{
+  "version": "2.2.3",
+  "title": "StationCore 2.2.3",
+  "notes": [
+    "Primer release oficial de StationCore para Club Versus.",
+    "Recibos de venta corregidos: Club Versus centrado, formato limpio, fecha compatible y corte al final.",
+    "Empleados corregido: Nuevo empleado abre correctamente.",
+    "Mantiene updater GitHub, backup previo al update y reinicio controlado."
+  ],
+  "downloadUrl": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_live_receipts_employees_v2_2_3.zip",
+  "url": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_live_receipts_employees_v2_2_3.zip",
+  "sha256": "989e2ff2edc7035370ee39ad75900e2280a8da5276964a0f048fbeca5d62c622",
+  "size": 9409844,
+  "mandatory": false,
+  "publishedAt": "2026-07-05T20:45:00.000Z",
+  "minVersion": "2.2.0"
+}
