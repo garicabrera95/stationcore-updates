@@ -1,17 +1,19 @@
 {
-  "version": "2.2.3",
-  "title": "StationCore 2.2.3",
-  "notes": [
-    "Primer release oficial de StationCore para Club Versus.",
-    "Recibos de venta corregidos: Club Versus centrado, formato limpio, fecha compatible y corte al final.",
-    "Empleados corregido: Nuevo empleado abre correctamente.",
-    "Mantiene updater GitHub, backup previo al update y reinicio controlado."
-  ],
-  "downloadUrl": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_live_receipts_employees_v2_2_3.zip",
-  "url": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_live_receipts_employees_v2_2_3.zip",
-  "sha256": "989e2ff2edc7035370ee39ad75900e2280a8da5276964a0f048fbeca5d62c622",
-  "size": 9409844,
+  "version": "2.4.0",
+  "name": "StationCore Owner Operations",
+  "downloadUrl": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_owner_operations_v2_4_0.zip",
+  "url": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_owner_operations_v2_4_0.zip",
+  "sha256": "24cfdf3f96901bda8a13a3146bae1f291cf99cc486a77374f3457d025a81558b",
+  "size": 9450434,
   "mandatory": false,
-  "publishedAt": "2026-07-05T20:45:00.000Z",
-  "minVersion": "2.2.0"
+  "notes": [
+    "Panel Owner con pestañas limpias para resumen, códigos, pagos, solicitudes, estaciones y ventas.",
+    "Códigos de autorización separados para Transferencia y Pago.",
+    "Registrar pago con código único, razón, monto, impacto en caja esperada y apertura de gaveta.",
+    "Solicitudes de juegos administrables desde Panel Owner.",
+    "Montos en RD$ sin centavos y mejor ajuste visual para miles.",
+    "Cards de estaciones más consistentes visualmente.",
+    "Actualizaciones disponibles para cajeros mediante permiso Actualizaciones.",
+    "Mejor detección de pg_dump para backups y updates."
+  ]
 }
