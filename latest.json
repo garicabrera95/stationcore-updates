@@ -1,19 +1,18 @@
 {
-  "version": "2.4.0",
-  "name": "StationCore Owner Operations",
-  "downloadUrl": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_owner_operations_v2_4_0.zip",
-  "url": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_owner_operations_v2_4_0.zip",
-  "sha256": "24cfdf3f96901bda8a13a3146bae1f291cf99cc486a77374f3457d025a81558b",
-  "size": 9450434,
+  "version": "2.5.0",
+  "name": "StationCore Cash Control + Nintendo Extras + Family Discounts",
+  "downloadUrl": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_owner_cash_nintendo_family_v2_5_0.zip",
+  "url": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_owner_cash_nintendo_family_v2_5_0.zip",
+  "sha256": "6b97efb4ebcc7e3c616c5a478fa976256ca12da551b3dd137252accc1b926202",
+  "size": 198802,
   "mandatory": false,
   "notes": [
-    "Panel Owner con pestañas limpias para resumen, códigos, pagos, solicitudes, estaciones y ventas.",
-    "Códigos de autorización separados para Transferencia y Pago.",
-    "Registrar pago con código único, razón, monto, impacto en caja esperada y apertura de gaveta.",
-    "Solicitudes de juegos administrables desde Panel Owner.",
-    "Montos en RD$ sin centavos y mejor ajuste visual para miles.",
-    "Cards de estaciones más consistentes visualmente.",
-    "Actualizaciones disponibles para cajeros mediante permiso Actualizaciones.",
-    "Mejor detección de pg_dump para backups y updates."
+    "Caja por turnos con historial en Panel Owner: hoy, ayer, antes de ayer, semana, mes, rango y turnos.",
+    "Separación clara de fondo inicial, ventas, total físico esperado y dinero a entregar.",
+    "Impresión de recibo de apertura de caja y recibo de cierre/cuadre para entrega a Felicia.",
+    "Controles extra para juegos Nintendo compatibles, visibles solo al seleccionar 2 jugadores.",
+    "Códigos familiares de descuento 50% o 100% con vencimiento y usos configurables desde Panel Owner online.",
+    "Descuentos familiares registrados en ventas, recibos y reportes para medir descuentos por período.",
+    "Ajuste visual final de botones + y - en controles extra."
   ]
 }
