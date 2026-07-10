@@ -1,18 +1,15 @@
 {
-  "version": "2.5.0",
-  "name": "StationCore Cash Control + Nintendo Extras + Family Discounts",
-  "downloadUrl": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_owner_cash_nintendo_family_v2_5_0.zip",
-  "url": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_owner_cash_nintendo_family_v2_5_0.zip",
-  "sha256": "6b97efb4ebcc7e3c616c5a478fa976256ca12da551b3dd137252accc1b926202",
-  "size": 198802,
+  "version": "2.5.2",
+  "name": "StationCore Cash, Nintendo & Family Discounts Fix",
+  "downloadUrl": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_owner_cash_nintendo_family_v2_5_2_fix.zip",
+  "url": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_owner_cash_nintendo_family_v2_5_2_fix.zip",
+  "sha256": "dcd3bc1331a2d1a33fcf072e3f9c2f53cb5c6f7bbdbac87b72eeeb41bcdf7e8e",
+  "size": 202855,
   "mandatory": false,
   "notes": [
-    "Caja por turnos con historial en Panel Owner: hoy, ayer, antes de ayer, semana, mes, rango y turnos.",
-    "Separación clara de fondo inicial, ventas, total físico esperado y dinero a entregar.",
-    "Impresión de recibo de apertura de caja y recibo de cierre/cuadre para entrega a Felicia.",
-    "Controles extra para juegos Nintendo compatibles, visibles solo al seleccionar 2 jugadores.",
-    "Códigos familiares de descuento 50% o 100% con vencimiento y usos configurables desde Panel Owner online.",
-    "Descuentos familiares registrados en ventas, recibos y reportes para medir descuentos por período.",
-    "Ajuste visual final de botones + y - en controles extra."
+    "Corrige paquete consolidado para incluir estilos completos del Panel Owner.",
+    "Actualiza package.json para que la versión instalada suba correctamente.",
+    "Incluye migraciones 081 y 082 para controles extra, recibos de caja y códigos familiares.",
+    "Mantiene caja por turnos, recibos de apertura/cierre, controles extra Nintendo y descuentos familiares con reportes."
   ]
 }
