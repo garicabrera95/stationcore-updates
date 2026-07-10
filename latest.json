@@ -1,15 +1,18 @@
 {
-  "version": "2.5.2",
-  "name": "StationCore Cash, Nintendo & Family Discounts Fix",
-  "downloadUrl": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_owner_cash_nintendo_family_v2_5_2_fix.zip",
-  "url": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_owner_cash_nintendo_family_v2_5_2_fix.zip",
-  "sha256": "dcd3bc1331a2d1a33fcf072e3f9c2f53cb5c6f7bbdbac87b72eeeb41bcdf7e8e",
-  "size": 202855,
+  "version": "2.5.4",
+  "name": "StationCore Kids Extension",
+  "downloadUrl": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_kids_extension_v2_5_4.zip",
+  "url": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_kids_extension_v2_5_4.zip",
+  "sha256": "8a4474a8d96097d1050bdbcb6ec8e1256c550dd4bc2083a879145b6195db4579",
+  "size": 141104,
   "mandatory": false,
   "notes": [
-    "Corrige paquete consolidado para incluir estilos completos del Panel Owner.",
-    "Actualiza package.json para que la versión instalada suba correctamente.",
-    "Incluye migraciones 081 y 082 para controles extra, recibos de caja y códigos familiares.",
-    "Mantiene caja por turnos, recibos de apertura/cierre, controles extra Nintendo y descuentos familiares con reportes."
+    "Extensión infantil configurable desde Módulos > Precios.",
+    "Permite activar/desactivar la extensión, escoger consola, duración base, minutos de cortesía y nombre visible.",
+    "La extensión se muestra solo cuando se selecciona la duración base configurada.",
+    "Para Club Versus: 15 minutos pagados + 5 minutos de cortesía para Nintendo Switch.",
+    "La sesión agrega los minutos de cortesía sin cobrar extra y registra la línea como RD$0.",
+    "No requiere migración nueva; usa app_settings existente.",
+    "Incluye package.json actualizado a 2.5.4 para que la versión instalada suba correctamente."
   ]
 }
