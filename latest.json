@@ -1,18 +1,23 @@
 {
-  "version": "2.5.7",
-  "name": "StationCore Fix Cierre de Caja",
-  "downloadUrl": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_fix_cierre_caja_v2_5_7.zip",
-  "url": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_fix_cierre_caja_v2_5_7.zip",
-  "sha256": "48d68afa190275ed8991d6b2e35fe1ca714b39d901ea6763f85a01ff345577d5",
-  "size": 21492,
+  "version": "2.5.9",
+  "name": "StationCore Cambio de Estación y Código Familiar",
+  "downloadUrl": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_cambio_estacion_codigo_familiar_v2_5_9.zip",
+  "url": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_cambio_estacion_codigo_familiar_v2_5_9.zip",
+  "sha256": "f2bebf5ef296cf99692758b21eacd587e6bb973c3454d0872a50c4be53949ae1",
+  "size": 191899,
   "mandatory": false,
   "notes": [
-    "Corrige la impresión del recibo de cierre/cuadre de caja.",
-    "El cierre ahora intenta imprimir el cuadre antes de cerrar el flujo del modal.",
-    "El recibo de cierre usa los datos completos devueltos por el backend, incluyendo cajera/usuario y montos del cierre.",
-    "Si la impresión falla, muestra aviso claro indicando que la caja cerró pero no se imprimió el recibo.",
-    "Si la impresión se envía correctamente, muestra confirmación de caja cerrada e impresión enviada.",
+    "Agrega Cambio de estación para mover una sesión activa a otra estación disponible sin cobrar otra vez.",
+    "Conserva minutos restantes, libera la estación original y ocupa automáticamente la estación destino.",
+    "Permite seleccionar juego nuevo compatible con la estación destino.",
+    "Bloquea el cambio si la sesión está en modo libre, tiene balance pendiente o hay orden nueva sin cobrar/guardar.",
+    "Corrige el modal de Cambio para que abra al frente de todo.",
+    "Limpia errores largos del backend para mostrar mensajes operativos claros.",
+    "Corrige códigos familiares 100% en estaciones: cuando el total queda RD$0.00, Pagar ahora sí inicia el tiempo.",
+    "Registra la venta RD$0.00 con el descuento familiar aplicado y cuenta el uso del código.",
+    "No modifica caja para cambios de estación; el cambio solo registra auditoría operativa.",
+    "Protege reporte contra metadata no numérica en auditoría para evitar errores SQL largos.",
     "No requiere migración nueva.",
-    "Incluye package.json actualizado a 2.5.7 para que la versión instalada suba correctamente."
+    "Incluye package.json actualizado a 2.5.9 para que la versión instalada suba correctamente."
   ]
 }
