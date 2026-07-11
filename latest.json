@@ -1,18 +1,22 @@
 {
-  "version": "2.5.4",
-  "name": "StationCore Kids Extension",
-  "downloadUrl": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_kids_extension_v2_5_4.zip",
-  "url": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_kids_extension_v2_5_4.zip",
-  "sha256": "8a4474a8d96097d1050bdbcb6ec8e1256c550dd4bc2083a879145b6195db4579",
-  "size": 141104,
+  "version": "2.5.6",
+  "name": "StationCore Torneos y Lista de Espera Pagada",
+  "downloadUrl": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_torneos_waitlist_paid_v2_5_6.zip",
+  "url": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_torneos_waitlist_paid_v2_5_6.zip",
+  "sha256": "01a0a7f05dbb05ead43d1caada4a494d5e7c0e05bda0ea033e1cc6250f0c89bc",
+  "size": 187087,
   "mandatory": false,
   "notes": [
-    "Extensión infantil configurable desde Módulos > Precios.",
-    "Permite activar/desactivar la extensión, escoger consola, duración base, minutos de cortesía y nombre visible.",
-    "La extensión se muestra solo cuando se selecciona la duración base configurada.",
-    "Para Club Versus: 15 minutos pagados + 5 minutos de cortesía para Nintendo Switch.",
-    "La sesión agrega los minutos de cortesía sin cobrar extra y registra la línea como RD$0.",
-    "No requiere migración nueva; usa app_settings existente.",
-    "Incluye package.json actualizado a 2.5.4 para que la versión instalada suba correctamente."
+    "Lista de espera pagada para juegos ocupados.",
+    "Al agregar cliente a espera, ahora pide nombre, tiempo y jugadores, cobra antes de guardar y registra el pago en caja.",
+    "La espera queda vinculada al juego y estación compatible para asignar automáticamente cuando esté disponible.",
+    "Orden visible en lista de espera con #1, #2, #3 para que la cajera pueda informar el turno sin contar manualmente.",
+    "Modal de lista de espera pagada más limpio, compacto y con botón de cerrar alineado correctamente.",
+    "Corrección visual del formulario de Reservas / Espera para ocultar fecha/hora cuando es lista de espera.",
+    "Corrección de UI de inscripción de torneos en Venta rápida.",
+    "Corrección de hora de torneos para mostrar la hora real configurada.",
+    "Botón Iniciar Modo Versus bloqueado hasta el día y hora del torneo, sin texto adicional que ensucie la UI.",
+    "Tiempo guardado para premios de torneo: permite usar parcialmente minutos ganados, por ejemplo 30 min de un premio de 2 horas.",
+    "Incluye package.json actualizado a 2.5.6 para que la versión instalada suba correctamente."
   ]
 }
