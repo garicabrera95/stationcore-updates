@@ -1,19 +1,19 @@
 {
-  "version": "2.7.1",
-  "minVersion": "2.6.0",
-  "name": "StationCore v2.7.1 Corrección de Arranque",
-  "title": "StationCore v2.7.1",
-  "downloadUrl": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_inventory_reports_printing_security_v2_7_1.zip",
-  "url": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_inventory_reports_printing_security_v2_7_1.zip",
-  "sha256": "69bfadf7140095e398112369b35c5999aca9e142ce04368f13170f4e78ac5116",
-  "size": 286139,
-  "sizeBytes": 286139,
+  "version": "2.7.2",
+  "minVersion": "2.7.1",
+  "name": "StationCore v2.7.2 Resultado del Cuadre",
+  "title": "StationCore v2.7.2",
+  "downloadUrl": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_drawer_balance_v2_7_2.zip",
+  "url": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_drawer_balance_v2_7_2.zip",
+  "sha256": "78f080f89bfb0463684b1bcea6cfdbb6bc8911425739727be2a227614e486497",
+  "size": 80717,
+  "sizeBytes": 80717,
   "mandatory": false,
-  "publishedAt": "2026-07-12T22:02:57Z",
+  "publishedAt": "2026-07-13T02:00:38Z",
   "notes": [
-    "Corrige el arranque cuando una base existente contiene el permiso histórico updates.",
-    "Repara las restricciones de permisos antes de continuar las migraciones.",
-    "Conserva todos los reportes, inventario, reposición, impresiones y seguridad incluidos en v2.7.0.",
-    "Incluye actualización consolidada desde StationCore v2.6.0 y migraciones hasta la 088."
+    "El cierre de caja muestra claramente si existe faltante, sobrante o cuadre exacto.",
+    "El recibo imprime el efectivo contado y el resultado del cuadre.",
+    "Conserva sin cambios el cálculo de Dinero a entregar.",
+    "Parche exclusivo para v2.7.1; no incluye migraciones ni cambios de base de datos."
   ]
 }
