@@ -1,19 +1,27 @@
 {
-  "version": "2.7.2",
-  "minVersion": "2.7.1",
-  "name": "StationCore v2.7.2 Resultado del Cuadre",
-  "title": "StationCore v2.7.2",
-  "downloadUrl": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_drawer_balance_v2_7_2.zip",
-  "url": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_drawer_balance_v2_7_2.zip",
-  "sha256": "78f080f89bfb0463684b1bcea6cfdbb6bc8911425739727be2a227614e486497",
-  "size": 80717,
-  "sizeBytes": 80717,
+  "version": "2.7.6",
+  "minVersion": "2.7.2",
+  "name": "StationCore v2.7.6 Impresiones, devoluciones y recogidas",
+  "title": "StationCore v2.7.6",
+  "downloadUrl": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_printing_refunds_collections_v2_7_6_stable.zip",
+  "url": "https://raw.githubusercontent.com/garicabrera95/stationcore-updates/main/releases/StationCore_printing_refunds_collections_v2_7_6_stable.zip",
+  "sha256": "a8e7675ca8e3c1f987808c8116f0626193dbbe40517033b2283dc1478a752e48",
+  "size": 294355,
+  "sizeBytes": 294355,
   "mandatory": false,
-  "publishedAt": "2026-07-13T02:00:38Z",
+  "containsMigrations": true,
+  "migrations": [
+    "089_dynamic_print_paper_supplies.sql",
+    "090_epson_l3250_profiles_and_maintenance.sql",
+    "091_sale_refunds_and_cash_collections.sql"
+  ],
+  "publishedAt": "2026-07-14T18:58:51Z",
   "notes": [
-    "El cierre de caja muestra claramente si existe faltante, sobrante o cuadre exacto.",
-    "El recibo imprime el efectivo contado y el resultado del cuadre.",
-    "Conserva sin cambios el cálculo de Dinero a entregar.",
-    "Parche exclusivo para v2.7.1; no incluye migraciones ni cambios de base de datos."
+    "Actualización acumulativa para StationCore v2.7.2 estable.",
+    "Agrega precios escalonados, servicios de impresión y papeles especiales administrables.",
+    "Calcula costos aproximados y mantenimiento para la Epson L3250.",
+    "Agrega anulaciones y devoluciones auditables sin borrar ventas.",
+    "Agrega reportes por fecha y hora, recogidas de efectivo y conteo a pantalla completa por denominaciones.",
+    "IMPORTANTE: SÍ contiene las migraciones 089, 090 y 091. Hacer y verificar un backup de club_versus_pos antes de actualizar."
   ]
 }
